@@ -1,0 +1,12 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner img {
+    width: clamp(300px, 100%, 700px);
+    object-fit: cover;
+    object-position: 0 -(30%);
+    border-radius: 0 0 clamp(10px, 3.5vw, 50px) clamp(10px, 3.5vw, 50px);
+}

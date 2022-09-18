@@ -1,0 +1,9 @@
+.links-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links-menu img {
+    width: 32px;
+}

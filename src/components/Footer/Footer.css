@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #6278F7;
+    padding: 80px;
+}
+
+.footer div {
+    margin: 32px;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.footer p {
+    color:white;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}

@@ -1,0 +1,19 @@
+.team{
+    text-align:center;
+    padding: 32px;
+}
+
+.team h3 {
+    display: inline-block;
+    font-size: 32px;
+    border-bottom: 4px solid;
+    padding-bottom: 8px;
+}
+
+.team .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
